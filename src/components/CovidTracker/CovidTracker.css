@@ -1,0 +1,35 @@
+.tracker {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.tracker__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.tracker__left {
+  flex: 0.9;
+}
+.tracker__header h1 {
+  color: #fc3c3c;
+  font-size: 2rem;
+}
+/* .tracker__dropdown {
+  background-color: white;
+} */
+.tracker__stats {
+  display: flex;
+  justify-content: space-between;
+}
+.tracker__chart {
+  flex-grow: 1;
+}
+
+@media (max-width: 990px) {
+  .tracker {
+    flex-direction: column;
+  }
+}
